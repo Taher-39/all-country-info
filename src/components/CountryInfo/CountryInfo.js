@@ -14,7 +14,7 @@ const CountryInfo = () => {
                 // console.log(data[0])
             })
             
-    }, [])
+    }, [name])
     // console.log(info?.currencies[0])
     return (
         <div style={{textAlign: 'center'}}>
